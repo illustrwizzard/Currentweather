@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun fetchWeatherData(city: String) {
-        val apiKey = "4a73bb5fc078fed3b922de2680ca89c0" // Replace with your OpenWeatherMap API key
+        val apiKey = "" // Replace with your OpenWeatherMap API key
 
         // Construct the API URL with the city and API key
         val apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey"
